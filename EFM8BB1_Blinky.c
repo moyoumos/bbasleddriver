@@ -97,17 +97,3 @@ void main (void)
        doPrint(5237 , 5);
    }
 }
-
-//SI_INTERRUPT(TIMER2_ISR, TIMER2_IRQn)
-//{
-//  static uint16_t cnt=0;
-//  static uint8_t idig=0;
-//  cnt++;
-//  TMR2CN0_TF2H= 0;
-//  if(cnt>=850) {
-//      //LED0 ^= 1;
-//      LED0 = trns[idig++];
-//      cnt = 0;
-//      if(idig>=8) idig=0;
-//  }
-//}
