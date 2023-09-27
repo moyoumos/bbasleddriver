@@ -3,7 +3,7 @@
 #include <intrins.h>
 
 
-extern uint8_t rotate(uint8_t r);
+//extern uint8_t rotate(uint8_t r);
 volatile unsigned char  retval=0xAA;
 
 SI_SBIT(LED0, SFR_P1, 4);
