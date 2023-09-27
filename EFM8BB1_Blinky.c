@@ -3,36 +3,7 @@
 //-----------------------------------------------------------------------------
 // Copyright 2014 Silicon Laboratories, Inc.
 // http://developer.silabs.com/legal/version/v11/Silicon_Labs_Software_License_Agreement.txt
-//
-// Program Description:
-//
-// This program flashes the LED on the EFM8BB1 LCK board about
-// five times a second using the interrupt handler for Timer2.
-//
-// Resources:
-//   SYSCLK - 24.5 MHz HFOSC / 8
-//   Timer2 - 5 Hz interrupt
-//   P1.4   - LED
-//
 //-----------------------------------------------------------------------------
-// How To Test: EFM8BB1 LCK
-//-----------------------------------------------------------------------------
-// 1) Connect the EFM8BB1 LCK board to a PC using a micro USB cable.
-// 2) Compile and download code to the EFM8BB1 LCK board.
-//    In Simplicity Studio IDE, select Run -> Debug from the menu bar,
-//    click the Debug button in the quick menu, or press F11.
-// 3) Run the code.
-//    In Simplicity Studio IDE, select Run -> Resume from the menu bar,
-//    click the Resume button in the quick menu, or press F8.
-// 4) The LED should blink at approximately 5 Hz.
-//
-// Target:         EFM8BB1
-// Tool chain:     Generic
-//
-// Release 0.1 (MW, ST)
-//    - Initial Revision
-//    - 10 OCT 2014
-//
 
 //-----------------------------------------------------------------------------
 // Includes
